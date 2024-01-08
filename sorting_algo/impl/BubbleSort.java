@@ -9,14 +9,8 @@ public class BubbleSort {
         System.out.println("hello world");
 
         int[] arr = {2, 5, 9, 1, 11, 6};
-
-
         doBubbleSort(arr);
-
-        for (int item :
-                arr) {
-            System.out.print(item + " ");
-        }
+        System.out.println(Arrays.toString(arr));
 
 
     }
@@ -47,13 +41,17 @@ public class BubbleSort {
         int length = arr.length;
 
         for (int i = 0; i < length - 1; i++) {
+            int count  = 0;
+
             for (int j = 0; j < length - 1; j++) {
-
-                if (arr[j] > arr[j + 1])
-                    swapItems(arr, j);
-
-                System.out.println(Arrays.toString(arr));
+                if (arr[j] > arr[j + 1]) {
+                     swapItems(arr, j);
+                     count++;
+                }
             }
+            if (count == 0)
+                break;
+
         }
 
         return arr;
