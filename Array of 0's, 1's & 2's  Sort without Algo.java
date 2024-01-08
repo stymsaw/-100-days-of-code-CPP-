@@ -46,4 +46,5 @@ public class Main {
     a. loop1 : i = 0 to i < 0's count
     b. loop2 : i = 0's count to i < (0's + 1's) count.
     c. loop 3 : from i to last index of array.
+    c. loop 3 : from i to last index of array.
 */
