@@ -1,4 +1,4 @@
-package com.company.kth_min_max;
+package com.company.arrays.kth_min_max;
 
 import java.util.Arrays;
 

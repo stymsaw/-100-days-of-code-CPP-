@@ -1,4 +1,4 @@
-package com.company.min_max_in_array;
+package com.company.arrays.min_max_in_array;
 
 public class Main {
 

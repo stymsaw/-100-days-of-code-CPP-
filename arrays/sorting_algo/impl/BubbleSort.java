@@ -1,4 +1,4 @@
-package com.company.sorting_algo.impl;
+package com.company.arrays.sorting_algo.impl;
 
 
 import java.util.Arrays;

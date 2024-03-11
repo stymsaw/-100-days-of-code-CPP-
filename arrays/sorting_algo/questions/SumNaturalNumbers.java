@@ -1,4 +1,4 @@
-package com.company.sorting_algo.questions;
+package com.company.arrays.sorting_algo.questions;
 
 public class SumNaturalNumbers {
 

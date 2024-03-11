@@ -1,4 +1,4 @@
-package com.company.reverse_array;
+package com.company.arrays.reverse_array;
 
 public class Main {
 
